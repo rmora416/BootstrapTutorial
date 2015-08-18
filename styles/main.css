@@ -1,0 +1,44 @@
+.darkBG{
+		background: #999;
+}
+
+.darkerBG{
+		background: #666;
+}
+
+.darkestBG{
+		background: #333;
+}
+
+
+.myPanel{
+	border: 1px solid #687d6d;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #ccc;
+	margin: 3%;
+}
+
+.myPanel .heading{
+	background: #b6f0c4;	
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #687d6d;
+	padding: 10px 20px;
+}
+
+.myPanel .body{
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+	display: none;
+}
+
+.myPanel:hover{
+	box-shadow: 0px 0px 8px #666;
+	border: 2px solid #687d6d;
+}
+.myPanel:hover .showOnHover{
+	display: inline-block;
+}
